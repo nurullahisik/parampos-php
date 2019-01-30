@@ -1,0 +1,15 @@
+{
+    "name": "user52/parampos-library",
+    "authors": [
+        {
+            "name": "Nurullah ISIK,",
+            "email": "bmnurullah@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ParamposLibrary\\": "src/app/"
+        }
+    }
+}
