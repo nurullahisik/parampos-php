@@ -8,7 +8,8 @@
 
 namespace ParamposLibrary;
 
-use paramposLibrary\ParamConfig AS ParamConfig;
+
+use paramposLibrary\ParamConfig;
 use param\TransactionQuery AS ParamTransactionQuery;
 use param\paramBasics\G;
 
