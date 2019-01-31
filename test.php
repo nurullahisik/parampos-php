@@ -7,6 +7,7 @@ use ParamposLibrary\TransactionAbstact;
 use ParamposLibrary\InstallmentPlanForMerchant;
 use ParamposLibrary\InstallmentPlanForUser;
 use ParamposLibrary\UpdateInstallmentPlan;
+use ParamposLibrary\CardInformations;
 
 //$x = new TransactionQuery( "", "1a34afa323356", "");
 //print_r($x->get());
@@ -20,6 +21,9 @@ use ParamposLibrary\UpdateInstallmentPlan;
 //$x = new InstallmentPlanForUser();
 //print_r($x->get());
 
-$x = new UpdateInstallmentPlan("13815");
-$x->set(1, 0.0001);
-print_r($x->update());
+//$x = new UpdateInstallmentPlan("13815");
+//$x->set(1, 0.0001);
+//print_r($x->update());
+
+$x = new CardInformations("498749");
+print_r($x->get());
