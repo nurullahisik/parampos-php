@@ -9,7 +9,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "ParamposLibrary\\": "src/app/"
+            "ParamposLibrary\\": "src/app/",
+            "param\\": "vendor/parampos/"
         }
     }
 }

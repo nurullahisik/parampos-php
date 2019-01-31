@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInitb2b06e3c247b7500688a2edf5c33ebf0
 {
     public static $prefixLengthsPsr4 = array (
+        'p' => 
+        array (
+            'param\\' => 6,
+        ),
         'P' => 
         array (
             'ParamposLibrary\\' => 16,
@@ -14,6 +18,10 @@ class ComposerStaticInitb2b06e3c247b7500688a2edf5c33ebf0
     );
 
     public static $prefixDirsPsr4 = array (
+        'param\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/parampos',
+        ),
         'ParamposLibrary\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/app',

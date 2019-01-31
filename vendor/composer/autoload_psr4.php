@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'param\\' => array($vendorDir . '/parampos'),
     'ParamposLibrary\\' => array($baseDir . '/src/app'),
 );

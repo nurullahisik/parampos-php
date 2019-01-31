@@ -2,18 +2,19 @@
 /**
  * Created by PhpStorm.
  * User: user52
- * Date: 30.01.2019
- * Time: 15:59
+ * Date: 31.01.2019
+ * Time: 09:22
  */
 
 namespace ParamposLibrary;
 
-class ParamConfig
+
+class Config
 {
     public $clientCode, $clientUsername, $clientPassword, $guid, $mode;
     public function set()
     {
-        $config = require_once "../config/config.php";
+        $config = require_once __DIR__ . "/../config/config.php";
 
         $this->clientCode     = $config['clientCode'];
         $this->clientUsername = $config['clientUsername'];

@@ -9,11 +9,10 @@
 namespace ParamposLibrary;
 
 
-use paramposLibrary\ParamConfig;
+use ParamposLibrary\Config;
 use param\TransactionQuery AS ParamTransactionQuery;
-use param\paramBasics\G;
 
-class TransactionQuery extends ParamConfig
+class TransactionQuery extends Config
 {
     private $invoiceId;
     private $orderId;
@@ -21,8 +20,8 @@ class TransactionQuery extends ParamConfig
 
     public function __construct($invoiceId, $orderId, $transactionId)
     {
-        $this->invoiceId = $invoiceId;
-        $this->orderId = $orderId;
+        $this->invoiceId     = $invoiceId;
+        $this->orderId       = $orderId;
         $this->transactionId = $transactionId;
 
         $this->set();
