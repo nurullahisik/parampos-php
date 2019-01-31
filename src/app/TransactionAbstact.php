@@ -21,10 +21,10 @@ class TransactionAbstact extends Config
         $this->startDate = $startDate;
         $this->endDate   = $endDate;
 
-        $this->set();
+        parent::set();
     }
 
-    public function send()
+    public function get()
     {
         $query = new TransactionAbstracts($this->clientCode, $this->clientUsername, $this->clientPassword, $this->guid, $this->mode);
         $query->send( $this->startDate, $this->endDate);

@@ -15,10 +15,10 @@ class InstallmentPlanForUser extends Config
 {
     public function __construct()
     {
-        $this->set();
+        parent::set();
     }
 
-    public function send()
+    public function get()
     {
         $query = new GetInstallmentPlanForUser($this->clientCode, $this->clientUsername, $this->clientPassword, $this->guid, $this->mode);
         $query->send();

@@ -24,10 +24,10 @@ class TransactionQuery extends Config
         $this->orderId       = $orderId;
         $this->transactionId = $transactionId;
 
-        $this->set();
+        parent::set();
     }
 
-    public function send()
+    public function get()
     {
         $query = new ParamTransactionQuery($this->clientCode, $this->clientUsername, $this->clientPassword, $this->guid, $this->mode);
         $query->send($this->invoiceId, $this->orderId, $this->transactionId);
