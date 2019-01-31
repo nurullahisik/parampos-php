@@ -11,7 +11,11 @@ namespace ParamposLibrary;
 
 class Config
 {
-    public $clientCode, $clientUsername, $clientPassword, $guid, $mode;
+    public $clientCode;
+    public $clientUsername;
+    public $clientPassword;
+    public $guid;
+    public $mode;
     public function set()
     {
         $config = require_once __DIR__ . "/../config/config.php";

@@ -31,6 +31,7 @@ class TransactionQuery extends Config
     {
         $query = new ParamTransactionQuery($this->clientCode, $this->clientUsername, $this->clientPassword, $this->guid, $this->mode);
         $query->send($this->invoiceId, $this->orderId, $this->transactionId);
+
         return $query->parse();
     }
 
