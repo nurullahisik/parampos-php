@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a6f2756-d12c-4b67-903f-8803d74e71fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/InstallmentPlanForMerchant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/InstallmentPlanForUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
@@ -27,26 +28,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="json" value="4" />
-          <entry key="php" value="23" />
+          <entry key="php" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="4" />
-          <entry key="PHP" value="23" />
+          <entry key="PHP" value="24" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="7" />
           <entry key="json" value="101" />
-          <entry key="php" value="1314" />
+          <entry key="php" value="1335" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="101" />
-          <entry key="PHP" value="1314" />
+          <entry key="PHP" value="1335" />
+          <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions">
@@ -56,7 +61,7 @@
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="5" />
+          <entry key="PHP Class.type" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -66,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" selection-start-line="11" selection-start-column="2" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="396">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
                 <element signature="e#39#76#0#PHP" expanded="true" />
               </folding>
@@ -78,8 +83,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/InstallmentPlanForMerchant.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#118#145#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/InstallmentPlanForUser.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <element signature="e#118#145#0#PHP" expanded="true" />
               </folding>
@@ -128,6 +145,8 @@
         <option value="$PROJECT_DIR$/src/app/Config.php" />
         <option value="$PROJECT_DIR$/src/app/TransactionQuery.php" />
         <option value="$PROJECT_DIR$/src/app/InstallmentPlanForMerchant.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/app/InstallmentPlanForUser.php" />
         <option value="$PROJECT_DIR$/test.php" />
       </list>
     </option>
@@ -232,12 +251,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548851982149</updated>
       <workItem from="1548851983369" duration="5941000" />
-      <workItem from="1548915646624" duration="2965000" />
+      <workItem from="1548915646624" duration="3124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8906000" />
+    <option name="totallyTimeSpent" value="9065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -364,10 +383,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/InstallmentPlanForMerchant.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#118#145#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/InstallmentPlanForUser.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <element signature="e#118#145#0#PHP" expanded="true" />
           </folding>
@@ -376,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-start-column="2" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="396">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="e#39#76#0#PHP" expanded="true" />
           </folding>
