@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a6f2756-d12c-4b67-903f-8803d74e71fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/InstallmentPlanForMerchant.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/TransactionAbstact.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/TransactionAbstact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/TransactionQuery.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/TransactionQuery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,25 +28,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="4" />
-          <entry key="php" value="20" />
+          <entry key="php" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="4" />
-          <entry key="PHP" value="20" />
+          <entry key="PHP" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="101" />
-          <entry key="php" value="1139" />
+          <entry key="php" value="1314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="101" />
-          <entry key="PHP" value="1139" />
+          <entry key="PHP" value="1314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions">
@@ -57,18 +56,42 @@
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="4" />
+          <entry key="PHP Class.type" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" selection-start-line="11" selection-start-column="2" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="e#39#76#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/InstallmentPlanForMerchant.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+              <folding>
+                <element signature="e#118#145#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/TransactionQuery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="630">
+              <caret line="31" column="132" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="132" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
                 <element signature="e#119#146#0#PHP" expanded="true" />
@@ -77,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/TransactionAbstact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="506">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="41" />
               <folding>
                 <element signature="e#118#145#0#PHP" expanded="true" />
               </folding>
@@ -99,12 +122,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/config.php" />
         <option value="$PROJECT_DIR$/vendor/autoload.php" />
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/src/app/ParamConfig.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/app/TransactionAbstact.php" />
         <option value="$PROJECT_DIR$/src/app/Config.php" />
         <option value="$PROJECT_DIR$/src/app/TransactionQuery.php" />
+        <option value="$PROJECT_DIR$/src/app/InstallmentPlanForMerchant.php" />
+        <option value="$PROJECT_DIR$/test.php" />
       </list>
     </option>
   </component>
@@ -208,12 +232,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548851982149</updated>
       <workItem from="1548851983369" duration="5941000" />
-      <workItem from="1548915646624" duration="2548000" />
+      <workItem from="1548915646624" duration="2965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8489000" />
+    <option name="totallyTimeSpent" value="8906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -274,13 +298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -319,10 +336,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/TransactionAbstact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="e#118#145#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/TransactionQuery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="630">
+          <caret line="31" column="132" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="132" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
             <element signature="e#119#146#0#PHP" expanded="true" />
@@ -330,12 +357,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/TransactionAbstact.php">
+    <entry file="file://$PROJECT_DIR$/vendor/parampos/GetInstallmentPlanForMerchant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="-360">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/InstallmentPlanForMerchant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <element signature="e#118#145#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-start-column="2" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#39#76#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
