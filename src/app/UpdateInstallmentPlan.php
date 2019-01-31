@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: user52
+ * User: Nurullah Iþýk
  * Date: 31.01.2019
  * Time: 10:17
  */
@@ -11,22 +11,69 @@ namespace ParamposLibrary;
 use ParamposLibrary\Config;
 use param\UpdateInstallmentPlan AS ParamUpdateInstallmentPlan;
 
+/**
+ * Class UpdateInstallmentPlan
+ * @package ParamposLibrary
+ */
 class UpdateInstallmentPlan extends Config
 {
+    /**
+     * @var
+     */
     private $Id;
+    /**
+     * @var int
+     */
     private $MO_1  = 100;
+    /**
+     * @var int
+     */
     private $MO_2  = 100;
+    /**
+     * @var int
+     */
     private $MO_3  = 100;
+    /**
+     * @var int
+     */
     private $MO_4  = 100;
+    /**
+     * @var int
+     */
     private $MO_5  = 100;
+    /**
+     * @var int
+     */
     private $MO_6  = 100;
+    /**
+     * @var int
+     */
     private $MO_7  = 100;
+    /**
+     * @var int
+     */
     private $MO_8  = 100;
+    /**
+     * @var int
+     */
     private $MO_9  = 100;
+    /**
+     * @var int
+     */
     private $MO_10 = 100;
+    /**
+     * @var int
+     */
     private $MO_11 = 100;
+    /**
+     * @var int
+     */
     private $MO_12 = 100;
 
+    /**
+     * UpdateInstallmentPlan constructor.
+     * @param $Id
+     */
     public function __construct($Id)
     {
         $this->Id = $Id;
@@ -34,6 +81,10 @@ class UpdateInstallmentPlan extends Config
         parent::set();
     }
 
+    /**
+     * @param $key
+     * @param $value
+     */
     public function set($key, $value)
     {
         $key = "MO_" . $key;
@@ -41,6 +92,9 @@ class UpdateInstallmentPlan extends Config
         $this->$key = $value;
     }
 
+    /**
+     * @return array
+     */
     public function update()
     {
         $query = new ParamUpdateInstallmentPlan(

@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: user52
+ * User: Nurullah Iþýk
  * Date: 31.01.2019
  * Time: 10:38
  */
@@ -10,9 +10,21 @@ namespace ParamposLibrary;
 
 use param\Bin;
 
+/**
+ * Class CardInformations
+ * @package ParamposLibrary
+ */
 class CardInformations extends Config
 {
+    /**
+     * @var
+     */
     private $binNumber;
+
+    /**
+     * CardInformations constructor.
+     * @param $binNumber
+     */
     public function __construct($binNumber)
     {
         $this->binNumber = $binNumber;
@@ -20,6 +32,9 @@ class CardInformations extends Config
         parent::set();
     }
 
+    /**
+     * @return array|mixed
+     */
     public function get()
     {
         $query = new Bin($this->clientCode, $this->clientUsername, $this->clientPassword, $this->guid, $this->mode);

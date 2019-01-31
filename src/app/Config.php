@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: user52
+ * User: Nurullah Iþýk
  * Date: 31.01.2019
  * Time: 09:22
  */
@@ -9,13 +9,36 @@
 namespace ParamposLibrary;
 
 
+/**
+ * Class Config
+ * @package ParamposLibrary
+ */
 class Config
 {
+    /**
+     * @var
+     */
     public $clientCode;
+    /**
+     * @var
+     */
     public $clientUsername;
+    /**
+     * @var
+     */
     public $clientPassword;
+    /**
+     * @var
+     */
     public $guid;
+    /**
+     * @var
+     */
     public $mode;
+
+    /**
+     *
+     */
     public function set()
     {
         $config = require_once __DIR__ . "/../config/config.php";
