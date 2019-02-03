@@ -53,14 +53,14 @@ print_r($x->get());
 include "vendor/autoload.php";  
 use ParamposLibrary\UpdateInstallmentPlan;
 
-//$x = new UpdateInstallmentPlan("13815");
-//$x->set(1, 0.0001); // 1 taksit için
-//$x->set(2, 0.0001); // 2 taksit için
-//$x->set(3, 0.0001); // 3 taksit için
-//$x->set(4, 0.0001); // 4 taksit için
+$x = new UpdateInstallmentPlan("13815");
+$x->set(1, 0.0001); // 1 taksit için
+$x->set(2, 0.0001); // 2 taksit için
+$x->set(3, 0.0001); // 3 taksit için
+$x->set(4, 0.0001); // 4 taksit için
 ...
 ...
-//print_r($x->update());
+print_r($x->update());
 `````
 
 * **Card Informations**
